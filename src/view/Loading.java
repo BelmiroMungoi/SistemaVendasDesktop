@@ -134,7 +134,7 @@ public class Loading extends javax.swing.JFrame {
 
         try {
             for (int i = 0; i < 100; i += 2) {
-                Thread.sleep(150);
+                Thread.sleep(90);
                 loading.jProgressBar.setValue(i);
                 loading.jLabelPer1.setText(Integer.toString(i) + "%");
             }
